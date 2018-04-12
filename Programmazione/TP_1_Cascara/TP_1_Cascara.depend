@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1522162157 source:c:\test\barroso\tp_1_cascara\funciones.c
+	"funciones.h"
+
+1522161733 .h"
+
+1522161691 c:\test\barroso\tp_1_cascara\funciones.h
+
+1522161733 source:c:\test\barroso\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1522595952 source:/home/pablo/Programming/Programacion1y-laboratorio1-master/TP_1_Cascara/funciones.c
+	"funciones.h"
+	<stdio.h>
+	<math.h>
+
+1522295353 /home/pablo/Programming/Programacion1y-laboratorio1-master/TP_1_Cascara/funciones.h
+
+1522595951 source:/home/pablo/Programming/Programacion1y-laboratorio1-master/TP_1_Cascara/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
+1523572795 source:/home/pablo/Programmazione/TP_1_Cascara/funciones.c
+	"funciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<curses.h>
+
+1523572804 /home/pablo/Programmazione/TP_1_Cascara/funciones.h
+
+1523572989 source:/home/pablo/Programmazione/TP_1_Cascara/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<curses.h>
+	"funciones.h"
+
