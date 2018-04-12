@@ -24,7 +24,7 @@
 	<math.h>
 	"funciones.h"
 
-1523572795 source:/home/pablo/Programmazione/TP_1_Cascara/funciones.c
+1523574090 source:/home/pablo/Programmazione/TP_1_Cascara/funciones.c
 	"funciones.h"
 	<stdio.h>
 	<stdlib.h>
@@ -33,7 +33,7 @@
 
 1523572804 /home/pablo/Programmazione/TP_1_Cascara/funciones.h
 
-1523572989 source:/home/pablo/Programmazione/TP_1_Cascara/main.c
+1523573748 source:/home/pablo/Programmazione/TP_1_Cascara/main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>

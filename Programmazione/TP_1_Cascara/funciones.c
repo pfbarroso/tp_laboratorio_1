@@ -17,7 +17,8 @@ void CalcularTodo(int flag1,int flag2,float operando1, float operando2)
         CalcularDivision(flag1,flag2,operando1, operando2);
         CalcularMult(flag1,flag2,operando1, operando2);
         entero = esEntero(operando1);
-        if (entero == 1)
+        if (entero == 1 && operando1 >= 0)
+
         {
             resultadoF = CalcularFactorial(operando1);
             printf("================================================================\n");
@@ -27,7 +28,7 @@ void CalcularTodo(int flag1,int flag2,float operando1, float operando2)
         else
         {
             printf("================================================================\n");
-            printf("Imposible realizar el factoreo. El valor ingresado no es un numero entero.\n");
+            printf("Factorial: ERROR! El valor ingresado no es un numero valido.\n");
             printf("================================================================\n");
         }
     }
@@ -39,7 +40,7 @@ float IngresarPrimerOperando()
     float operando1;            		//Declaro variable local
     printf("\nIngrese primer operando: ");	//Muestro consigna
 //    scanf("%f",&operando1);    		//Leo numero
-    operando1 = ValidarOperando(operando1);
+    operando1 = ValidarOperando();
     printf("\nNumero ingresado: %.2f\n\n",operando1); //Muestro numero
     return operando1;           //Retorno un float y guardo en var 							de main()
 }
@@ -48,8 +49,8 @@ float IngresarSegundoOperando()
 {
     float operando2;            //Declaro variable local
     printf("\nIngrese segundo operando: ");    //Muestro consigna
-    scanf("%f",&operando2);     //Leo numero
-    operando2 = ValidarOperando(operando2);
+//    scanf("%f",&operando2);     //Leo numero
+    operando2 = ValidarOperando();
     printf("\nNumero ingresado: %.2f\n\n",operando2); //Muestro numero
     return operando2;           //Retorno un float y guardo en var 							de main()
 }
@@ -141,7 +142,7 @@ float ValidarOperando()
     while(isnan(operando) != 0)
     {
         printf("Valor no valido. Reingrese: ");	//Muestro consigna
-        clean_stdin();
+        fflush(stdin);
         scanf("%f",&operando);
     }
     return operando;

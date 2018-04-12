@@ -14,7 +14,7 @@ int main()
     int flag2 = 0;
     int entero;
     int resultadoFac;
-//    int seguir = 's';
+
     do
     {
         if(flag1!=1)
@@ -40,8 +40,7 @@ int main()
         printf("7- Calcular el factorial (A!)\n");
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n");
-        clean_stdin();
-        clean_stdin();
+
         scanf("%d",&opcion);
 
         switch(opcion)
@@ -81,7 +80,7 @@ int main()
                 else
                 {
                     printf("================================================================\n");
-                    printf("ERROR! El valor ingresado no es un numero valido.\n");
+                    printf("Factorial: ERROR! El valor ingresado no es un numero valido.\n");
                     printf("================================================================\n");
 
                     break;
